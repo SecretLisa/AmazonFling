@@ -1,2 +1,2 @@
-Frameworks/AmazonFling.xcframework/ios-arm64/libSimpleFlingLib-iphoneos.a filter=lfs diff=lfs merge=lfs -text
-Frameworks/AmazonFling.xcframework/ios-arm64_x86_64-simulator/libSimpleFlingLib-iphonesimulator.a filter=lfs diff=lfs merge=lfs -text
+Frameworks/AmazonFling.xcframework/ios-arm64/libSimpleFlingLib.a filter=lfs diff=lfs merge=lfs -text
+Frameworks/AmazonFling.xcframework/ios-arm64_x86_64-simulator/libSimpleFlingLib.a filter=lfs diff=lfs merge=lfs -text

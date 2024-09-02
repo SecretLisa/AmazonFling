@@ -25,8 +25,9 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '13.0'
     
+    s.dependency 'Bolts'
     s.ios.frameworks          = 'CFNetwork', 'Security', 'SystemConfiguration'
-    s.ios.vendored_frameworks = 'Frameworks/AmazonFling.framework', 'Frameworks/Bolts.framework'
+    s.ios.vendored_frameworks = 'Frameworks/AmazonFling.xcframework'
     
     s.user_target_xcconfig    = { 'OTHER_LDFLAGS' => '$(inherited) -lc++' }
 end
